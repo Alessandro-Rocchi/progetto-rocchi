@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+}
+
+.txt-center{
+	text-align: center;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+nav a, .link-decoration-none{
+	text-decoration: none;
+}
+
+
+nav a:hover, .link-decoration-none:hover{
+	text-decoration: underline;
+}
+
 .bg-gray-light{
 	background-color: #F1F1F1;
 }
@@ -8,4 +32,14 @@
 
 .bg-pink{
 	background-color: #BF8C6F;
+}
+
+.txt-white {
+	color: white;
+}
+
+.bg-hero {
+	background-image: url("../img/homepage.jpg");
+	background-repeat: no-repeat;
+	background-position: center ;
 }
