@@ -53,6 +53,10 @@ nav a:hover, .link-decoration-none:hover{
 	height: 100%;
 }
 
+.padding-top {
+	padding-top: 20%;
+}
+
 .padding {
 	padding-top: 5%;
 	padding-bottom: 5%;
