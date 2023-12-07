@@ -5,6 +5,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="style/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -36,29 +39,40 @@
         <!-- informazioni sul progetto e accesso al catalogo -->
         <section>
             <!-- progetto -->
-            <div class="bg-gray-light padding margin-top-zero">
-                <h2>Il progetto</h2>
-                <p><strong>I periodi artistici di Pablo Picasso</strong> è un progetto del Digital Humanities Advanced Research Center (<a href="https://centri.unibo.it/dharc/en" title="Dharc" target="_blank">/DH.ARC</a>)  dell'Università di Bologna. Gli obiettivi principali del progetto sono la catalogazione, la metadatazione, la preservazione e la  valorizzazione dei principali dipinti di Pablo Picasso suddivisi in base ai periodi artistici del pittore. Il risultato è un catalogo che raccoglie più di un centinaio di dipinti navigabili per periodo.</p>
-            </div>
+            <div class="container-fluid bg-gray-light">
+	            <div class="container padding-md">
+	                <h2>Il progetto</h2>
+	                <p><strong>I periodi artistici di Pablo Picasso</strong> è un progetto del Digital Humanities Advanced Research Center (<a href="https://centri.unibo.it/dharc/en" title="Dharc" target="_blank">/DH.ARC</a>)  dell'Università di Bologna. Gli obiettivi principali del progetto sono la catalogazione, la metadatazione, la preservazione e la  valorizzazione dei principali dipinti di Pablo Picasso suddivisi in base ai periodi artistici del pittore. Il risultato è un catalogo che raccoglie più di un centinaio di dipinti navigabili per periodo.</p>
+	            </div>
+	        </div>
             <!-- catalogo -->
-            <div class="bg-pink padding margin-top-zero">
-                <h2 class="txt-white">Esplora il catalogo</h2>
-                <p>Giovinezza</p>
-                <p>Periodo blu</p>
-                <p>Periodo rosa</p>
-                <p>Cubismo</p>
-            </div>
+            <div class="container-fluid bg-pink">
+	            <div class="container padding-md">
+	                <h2 class="txt-white">Esplora il catalogo</h2>
+	                <p>Giovinezza</p>
+	                <p>Periodo blu</p>
+	                <p>Periodo rosa</p>
+	                <p>Cubismo</p>
+	            </div>
+	        </div>
         </section>
         <!-- pre-footer --> 
-        <section class="bg-gray-light txt-center">
-            <span><a href="#" title="Credits">Credits</a></span>
-            <span> | </span>
-            <span><a href="#" title="Licenze">Licenze</a></span>
+        <section class="bg-gray-light txt-center container-fluid">
+        	<div class="container">
+        		<div class="row">
+        			<div class="col-6">
+	            		<span><a href="#" title="Credits">Credits</a></span>
+	           		</div>
+	            	<div class="col-6">
+	            		<span><a href="#" title="Licenze">Licenze</a></span>
+	            	</div>
+	            </div>
+            </div>
         </section>
     </main>
 
     <!-- footer -->
-    <footer class="bg-gray-dark txt-white txt-center">
+    <footer class="bg-gray-dark container-fluid txt-white txt-center">
         © Copyright (c) 2021 by /DH.arc - Digital Humanities Advanced Research
         Centre.
     </footer>
