@@ -13,26 +13,38 @@
 <body>
     <!-- header -->
     <header class="bg-gray-light">
-        <img src="img/header.png" title="Header" />
+       <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <img src="img/header.png" title="Header" class="img-center img-s" />
+                </div>
+            </div>
+        </div>
     </header>
 
     <!-- nav -->
     <nav class="bg-gray-dark">
-        <ul class="txt-white margin-top-zero">
+        <ul class="txt-light margin-top-zero">
             <li>Home</li>
             <li><a href="#" title="Introduzione">Introduzione</a></li>
-            <li><a href="#" title="Catalogo">Catalogo</a></li>
+            <li><a href="catalogo.html" title="Catalogo">Catalogo</a></li>
         </ul>
     </nav>
 
     <!-- main -->
     <main>
         <!-- hero-->
-        <section class="bg-hero">
-            <div class="txt-white txt-center padding-top">
-                <h1>I periodi artistici di Pablo Picasso</h1>
-                <p>La ricerca di un artista poliedrico</p>
-                <a class="link-decoration-none" href="#">Scopri di più</a>
+        <section class="container-fluid bg-home">
+            <div class="container padding-md">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="txt-center txt-light">
+                            <h1 class="">I periodi artistici di Pablo Picasso</h1>
+                            <p class="">La ricerca di un artista poliedrico</p>
+                           <a class="btn btn-light btn-lg border-r-zero" href="#" role="button" >Scopri di più</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -47,34 +59,90 @@
 	        </div>
             <!-- catalogo -->
             <div class="container-fluid bg-pink">
-	            <div class="container padding-md">
-	                <h2 class="txt-white">Esplora il catalogo</h2>
-	                <p>Giovinezza</p>
-	                <p>Periodo blu</p>
-	                <p>Periodo rosa</p>
-	                <p>Cubismo</p>
-	            </div>
-	        </div>
+                <div class="container padding-md">
+                    <div class="row">
+                        <div class="col-12">
+                            <h2 class="txt-light">Esplora il catalogo</h2>
+                        </div>
+                        <div class="accordion" id="accordionExample">
+						  <div class="accordion-item">
+						    <h2 class="accordion-header" id="headingOne">
+						      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						        Giovinezza
+						      </button>
+						    </h2>
+						    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+						      <div class="accordion-body">
+						        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+						      </div>
+						    </div>
+						  </div>
+						  <div class="accordion-item">
+						    <h2 class="accordion-header" id="headingTwo">
+						      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						        Periodo blu
+						      </button>
+						    </h2>
+						    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+						      <div class="accordion-body">
+						        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+						      </div>
+						    </div>
+						  </div>
+						  <div class="accordion-item">
+						    <h2 class="accordion-header" id="headingThree">
+						      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						      	Periodo Rosa
+						      </button>
+						    </h2>
+						    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+						      <div class="accordion-body">
+						        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+						      </div>
+						    </div>
+						  </div>
+						  <div class="accordion-item">
+						    <h2 class="accordion-header" id="headingFour">
+						      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+						        Cubismo
+						      </button>
+						    </h2>
+						    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+						      <div class="accordion-body">
+						        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+						      </div>
+						    </div>
+						  </div>
+						</div>
+                    </div>
+                </div>
+            </div>
         </section>
         <!-- pre-footer --> 
         <section class="bg-gray-light txt-center container-fluid">
-        	<div class="container">
-        		<div class="row">
-        			<div class="col-6">
-	            		<span><a href="#" title="Credits">Credits</a></span>
-	           		</div>
-	            	<div class="col-6">
-	            		<span><a href="#" title="Licenze">Licenze</a></span>
-	            	</div>
-	            </div>
+        	<div class="container txt-center padding-s">
+                <div class="row">
+                    <div class="col-md-6">
+                        <span><a href="#" title="Credits">Credits</a></span>
+                    </div>
+                    <div class="col-md-6">
+                        <span><a href="#" title="Licenze">Licenze</a></span>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
     <!-- footer -->
-    <footer class="bg-gray-dark container-fluid txt-white txt-center">
-        © Copyright (c) 2021 by /DH.arc - Digital Humanities Advanced Research
-        Centre.
+    <footer class="container-fluid bg-gray-dark txt-light">
+        <div class="container txt-center padding-s">
+            <div class="row">
+                <div class="col-12">
+                    © Copyright (c) 2021 by /DH.arc - Digital Humanities Advanced Research
+                    Centre.
+                </div>
+            </div>
+        </div>
     </footer>
 
 </body>
